@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PROJECTS_LIST = [
+export const PROJECTS_LIST = [
   {
     title: `MNIST Digit Recognition Neural Network with Deeplearn.js`,
     description: `Recognizing handwritten digits from the MNIST Database. The project shows how neural networks may be used to solve a multi-class classification problem. `,
@@ -43,12 +43,7 @@ const PROJECTS_LIST = [
   },
 ];
 
-const PROJECTS_MAIN = {
+export const PROJECTS_MAIN = {
   header: 'Projects',
-  paragraph: 'Insightful projects taken from Machine Learning in JavaScript to get you motivated joining the movement.',
-};
-
-export {
-  PROJECTS_LIST,
-  PROJECTS_MAIN,
+  paragraph: 'Inspiring projects taken from machine learning in JavaScript to spark your interest to join the movement.',
 };

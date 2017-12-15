@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LIBRARIES_LIST = [
+export const LIBRARIES_LIST = [
   {
     title: `Math.js`,
     description: `Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser with support for symbolic computation, comes with a large set of built-in functions and constants, and offers an integrated solution to work with different data types like numbers, big numbers, complex numbers, fractions, units, and matrices. Powerful and easy to use.`,
@@ -107,12 +107,7 @@ const LIBRARIES_LIST = [
   },
 ];
 
-const LIBRARIES_MAIN = {
+export const LIBRARIES_MAIN = {
   header: 'Libraries',
-  paragraph: 'Powerful libraries for applied machine learning in JavaScript. There is no need to implement algorithms from scratch.',
-};
-
-export {
-  LIBRARIES_LIST,
-  LIBRARIES_MAIN,
+  paragraph: 'Mature libraries for machine learning in JavaScript. No need to implement algorithms from scratch.',
 };
