@@ -11,7 +11,7 @@ export const PROJECTS_LIST = [
   },
   {
     title: `Agar.io-AI - Agar.io with Neuroevolution`,
-    description: `The project shows how you can use Neataptic to succesfully teach neural networks to play Agar.io. You can see the genomes live in action. These genomes have been trained for over 1000 generations, and definetely show sume human-like traits.`,
+    description: `The project shows how you can use Neataptic to successfully teach neural networks to play Agar.io. You can see the genomes live in action. These genomes have been trained for over 1000 generations, and definitely show some human-like traits.`,
     values: {
       demo: 'https://wagenaartje.github.io/neataptic/articles/agario/',
       source: 'https://github.com/wagenaartje/agario-ai',

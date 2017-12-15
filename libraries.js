@@ -59,7 +59,7 @@ export const LIBRARIES_LIST = [
   },
   {
     title: `Synaptic`,
-    description: `Synaptic is a javascript neural network library for node.js and the browser, its generalized algorithm is architecture-free, so you can build and train basically any type of first order or even second order neural network architectures. The library includes a few built-in architectures.`,
+    description: `Synaptic is a javascript neural network library for Node.js and the browser, its generalized algorithm is architecture-free, so you can build and train basically any type of first order or even second order neural network architectures. The library includes a few built-in architectures.`,
     values: {
       power: 'Neural Networks',
       library: 'https://github.com/cazala/synaptic',
