@@ -31,6 +31,7 @@ export const LIBRARIES_LIST = [
     values: {
       power: 'Computer Vision',
       library: 'https://github.com/ucisysarch/opencvjs',
+      // library: 'https://github.com/justadudewhohacks/opencv4nodejs',
     },
   },
   {

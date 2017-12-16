@@ -7,8 +7,50 @@ const ARTICLE_TYPES = {
   discussion: 'Discussion',
 };
 
+
+
 // Recent Last, Oldest First
 export const BLOG_LIST = [
+  {
+    title: `Shallow Machine Learning Algorithms in JavaScript`,
+    description: `This tutorial series teaches you several shallow machine learning algorithms and how to implement them.`,
+    values: {
+      articleType: ARTICLE_TYPES.tutorial,
+      articleLink: 'http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/',
+    },
+  },
+  {
+    title: `Machine Learning with OpenCV and JavaScript: Recognizing Handwritten Letters using HOG and SVM`,
+    description: `This tutorial teaches you how to train your own Support Vector Machine (SVM) from a set of training images for image classification with OpenCV and JavaScript.`,
+    values: {
+      articleType: ARTICLE_TYPES.tutorial,
+      articleLink: 'https://medium.com/@muehler.v/machine-learning-with-opencv-and-javascript-part-1-recognizing-handwritten-letters-using-hog-and-88719b70efaa',
+    },
+  },
+  {
+    title: `Simple Hand Gesture Recognition using OpenCV and JavaScript`,
+    description: `This tutorial teaches you how to recognize simple hand gestures in frames of a video stream or in still images using my npm package opencv4nodejs.`,
+    values: {
+      articleType: ARTICLE_TYPES.tutorial,
+      articleLink: 'https://medium.com/@muehler.v/simple-hand-gesture-recognition-using-opencv-and-javascript-eb3d6ced28a0',
+    },
+  },
+  {
+    title: `Node.js + OpenCV for Face Recognition`,
+    description: `This tutorial builds with you a simple Node.js face recognition example with the OpenCV's face module.`,
+    values: {
+      articleType: ARTICLE_TYPES.tutorial,
+      articleLink: 'https://medium.com/@muehler.v/node-js-opencv-for-face-recognition-37fa7cb860e8',
+    },
+  },
+  {
+    title: `Node.js meets OpenCV’s Deep Neural Networks`,
+    description: `This tutorial teaches you how to load pretrained models from Tensorflow and Caffe with OpenCV’s DNN module. You will dive into two examples for object recognition with Node.js and OpenCV.`,
+    values: {
+      articleType: ARTICLE_TYPES.tutorial,
+      articleLink: 'https://medium.com/@muehler.v/node-js-meets-opencvs-deep-neural-networks-fun-with-tensorflow-and-caffe-ff8d52a0f072',
+    },
+  },
   {
     title: `Linear Regression with Gradient Descent in JavaScript`,
     description: `The article guides you through implementing linear regression with gradient descent in JavaScript. The article can be used as introduction to machine learning in JavaScript and as entry point to a whole blog post series.`,
